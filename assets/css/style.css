@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    background-image: url(../img/pexels-joey-kyber-839351.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    font-family: "Roboto Mono", monospace;
+    background-color: #000000;
+  }
+  
+  .container {    
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .page-title {
+    font-size: 2.5em;
+    color: #000000;
+    margin: 10px;
+  }  
+
+  input {
+    text-align: center;
+    margin: 12px;
+    padding: 6px;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 1px 2px 4px 1px black;
+  }
+  
+  #moeda, #seg-moeda {
+    text-align: center;
+    margin: 12px;
+    padding: 6px;
+    border-radius: 15px;
+    border: 1px solid black;
+    box-shadow: 1px 2px 4px 1px black;
+  }
+
+  #swap {
+    width: 150px;
+    height: 30px;
+    margin: 12px;
+    padding: 6px;
+    border-radius: 15px;
+    border: 1px solid black;
+    box-shadow: 1px 2px 4px 1px black;
+  }
+
+  #taxInfo {
+    color: #ffffff;
+  }
